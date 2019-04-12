@@ -15,3 +15,4 @@ put your apk in ./data/apk/original/normal and ./data/apk/original/malware
 the bakfile will be stored in ./data/apk/baksmali  
 the features will be stored in ./data/feature/all/  
 ./data/feature/malware_sha256.csv shows malware apk file name  
+ ![image](https://github.com/lightningwm/Drebin/blob/master/learning_process04092040.png)
