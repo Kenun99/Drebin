@@ -3,6 +3,414 @@
   <component name="ChangeListManager">
     <list default="true" id="dcd7eb86-ee81-4f84-bb6d-fb1ade299669" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVM.py" beforeDir="false" afterPath="$PROJECT_DIR$/SVM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/apk/original/malware_sha256.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/000e79f3ad9c9b5d5092f9b6487b9693" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/00acaebde1f29dd7ed99ff8dea0b94e3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/00b27c63575b9a015fe0cb6b9b574a3d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/00b94f51e2f35c8d81fedf8211843166" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/00d8f2df771d4f8b08b80e9498ee2fa9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/00dfcedbbce02d4365db6b49625938c7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/00f02111a5f0b556dddd31e8ccdef47b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/00f4cb88a05d98c8448f8bef394f9ba4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/00fc122331c6cb5cc5503cdb0364d79a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0a080c783d2954fe19cc244219bda6ac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0a0b985533e79372c5fccc1e8df249fc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0a194b712e50f3145fbb7f882abf3311" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0a1bab2759caf323bb71ebf65a690c74" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0a2492cb0226687277657e9c4250daaa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0a312255a3b108be9f9f8dae7dadda92" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0a3176b43318fd84ea0c3002ebfc6243" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0a324c9fcb35e8264908565bf00138b4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0a32f2d7d3c8c8c5973f4f31f6701da4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0a33399ee70bd8def7757fbb9f061b3a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0a3c42a5499d01b09239e69821002917" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0a3cdfdf122e86e8056459097b95b425" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0a5629f2ded0b5335290416aef99ff8c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0a5954f413a252951ea5149010773914" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0a66f61ce550b989ad8c5defcdc24afe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0a6b410444a761c6345903d9522e0ff8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0a7ebcb031d2e24da1dc46ae14bf7a12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0a8285ae6096f5eba6d28fdf1029511d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0a834b8d13453a15407a78a8bed8da80" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0a84b6113d3a1da11bfe422c1ee3245c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0a8e441e067a6a4bc1c224ec2e88de36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0aa199d43bab4808f871cd79f47fcb3c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0aad8b44bf8089ab64de65a6957a2f16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0ab087b8d0d1c7cc0c5ccce75999966a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0ab55fc275ef02c7951118ab69e3af1c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0abbd21d11b87b3ada1feac7d9d9e58f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0abc9880e47c7035a347eedad2434d1d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0aca13d08d755c1363bfc25febbb86c0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0ad4a2b723581726402a56f1f91b2076" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0ad88948c84b43c44c864af4b4dfc44f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0adbf0e53743b5ef3b114a3f3c6419c1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0adef24b035d93d5416e675447285869" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0ae457f05a27589e32a12d879b3f5a16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0aecef8384cc6dc8a0f96a20cd714d8e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0af0c6470de7a91e4553f92673020ace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0af484a4a196b8c86360dd146e9214fd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0b079c8c9b775cc592d13c1bbf7c0c75" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0b0b5b33d615383ada6ff22aa94e1aa4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0b0e058c4539124113f39df2e744105d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0b1372b5107b6153ee25bfa1d3cbcb53" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0b17df6e008271c130d30c3c9ad7d79a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0b19ecc6fd95a74e9304bbcdbf9b6780" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0b1c4b69436392723a999c0428cbd891" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0b25a55b3ad76751c497c420f5f9445b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0b2ca599533a4176b0c7a9e1de395e7d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0b36b377d778d60ff3d9cea548194a99" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0b3745b9aeaaa1979929577475ffe972" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0b3a00281d766194020815464803e5cf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0b435b63c99d431dd77f99d3d02f56f7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0b45f00d13acf5c50684e9753de146e7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0b49d8fd51b2b0f93f2b4d2deac62951" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0b4b5cb6365a6fd7530dc690e12dac0d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0b4d3deb56a44416fc27cc74b28bb449" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0b55254cc750c943530edc72962294fc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0b55a981ea2ed9e04cafb688ec46db0d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0b5ba37f7d936bf5f1ee1d309f204693" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0b5e31fd4f29d8f811a65c50e347e76e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0b660655349830665ed05519eb022c54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0b67ee2828d400647f65ff1d5816f963" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0b6cbcd95cc63e514b6e8ffd56eef73f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0b7372098a1a5fad1cef15275ead864b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0b80968163428812252f09f42574ecaf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0b8c818fdcf0d55f1a2fd4e77f9dc057" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0bae302bcc24279f184a08bacd52c7d8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0bb7c64a1e6e2664265be527dc0ebace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0bba65e8e16a3fd70f60d48780f053be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0bbd867d2ae910112cbf00773f1bcc36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0bbf02cb7c3a7fcb6c93f4751c49eef9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0bbf6c7922b08a21d1db84e7c473f999" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0bd2a0d27c77a7488e9a82bccc86b539" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0bd8d7166bd3bda86d941c35577adadc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0be107c88a725e9c3f507cb1a2f1adb4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0be12b089ed091873b3924c571b435cf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0beadff5f0ee223c165f78c7186d73e2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0bf1141cb1fa890179e8fea99f1d849a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0bf3d3c73d0ced36d178814b6b7ca980" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0bf7d76ba393df3366341fe4d3cc88cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0c06e63a59fc84228df9bd73ce34848b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0c0f40f95c84035b19afacf03384807e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0c19c0042bfd33940d78aed7fc10d5b1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0c2f3a78a05e16d27c0d4d8b0763da21" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0c31c7221b15e6eea615ef614fbb6881" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0c3c2d8b261b1835f4c74d79309a47f9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0c3ffb9bb8404c5d33338a10af9e1b64" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0c41fde5fae19c4d48496a07b6e63200" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0c6afb92b1960ad483327dc4cec8026b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0c6d5986f21eb94af44eb9f44645dd74" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0c6fc1e94dd9486d30e2dc00a79192fb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0c7f2ad463b96eb43c3a78cd6b36cbce" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0c8ee32aca0a4689000f9957b2a71da8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/0c9bb0b89c2cff23adf86c02038879f7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/a.c-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/a2u.gotofree-9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/a2z.Mobile.Event2106-20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/ab.workout05-8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/abajar.mucha.musica-47" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/abcsoftl.game.training.easy.reflexes.measurement-2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/abs.chi.Project2-10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/ac.FarEast.HIM-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/ac_zgz.depositcalculatorfree-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/acatchtheball.pack-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/acroapps.mathkids-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/action.game-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/acwind.net.photoprotector-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/adamtorok.cod2rcontools-4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/adesigners.androdesal.bestnorthdakotaplaces-2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/adrianoferraguto.oraesatta-7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/ae.admedia.radio-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/aero.zztrop-13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/ag.i9c.driessen-3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/agus.instantphoto-4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/ai_obida_alquraan.MP3_Duaa_arabic-5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.A3bingo.camilacoelho-1010010" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.A4Timers-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.A9ZWRKV9BQ8.com.digitaleg.MainApplication-1000002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.AS3Facile-1000003" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.AllGone-1002005" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.Alphabetandsounds-1000002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.AmeterZ-1000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.AnatomyStarBrain-1002002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.AngelinaJolieMakeover-1000003" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.AnthonyHoangPhotography-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.ArabicTV.TestApp-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.Arabicalphabets-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.AspectosSociaisDaEuropa-1001000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.BBMan-561" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.BabyToys-1000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.BataBunga-1000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.Bee-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.Billiard_Room_Escape-1008000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.BubblePop2-2000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.CIF-1000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.CadyNiamey-1000008" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.CasaBabili5-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.Chicken_Nuggets_Cooking_Games-1002000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.ClayInvasionLite-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.aWiseMathK1601-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.abcs-1000002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.actionscript3tr.tarihserididenemesurumu-1001000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.air.ExplodingBalloons-6000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.air.SKULLED-1000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.air.com.gosugroup.battlefrontheroes-1000047" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.air.com.jamLite.JamWithMe-3000006" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.air.strokes.com.easymemo.EasyMemoItalian-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.amc.deadreckoning-1000004" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.appCaldes-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.apps.NewsEnterprise.quotidianiitaliani-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.au.com.coplsaas.db3-1000006" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.aviao-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.basement5001-1000002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.beach-3000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.biz.krokodyl.centrum_jezykow_europejskich__euro_alphabet-2056124" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.br.com.codigodeprocesssocivil.smartphonefree.A2013-1003000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.br.com.metronews.MN-1003000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.ca.jsbr.paperhangman-1003000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.calc.fnsoft-2001000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.candybarcookiepops-1000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.cc.hithot.android.game5722.domesticity.tw-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.cc.hithot.android.game5722.vegetables.tw-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.chrisDsAndroidApp-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.cn.kx.wg.empirecraft-2000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.cointoss-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.com.BarbyGames.BabyFacePainting-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.com.Croesus.AirAdvisor-1000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.com.absolutist.jumprobotfree-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.com.adobe.samples.GetMyLocation-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.com.advicted.RunenSteine-1001000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.com.ainago.MantoPhoto-1000003" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.com.air.NaughtyBoyKissing-1000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.com.alainsalabi.CookingTimer-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.com.amihanya.Pray-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.com.anwk.IceCreamStore-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.com.apps.vieweeds.pulsimeterfree-1000002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.com.arkadium.matchandmerge-4000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.com.avantajconsulting.testphp-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.com.baobaogame.ColorBearAndroid-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.com.bgp.kittenvillage-1000002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.com.blogspot.kruphimpha.app2-1000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.com.bookemon.mobile.BookemonMobile-1004000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.com.bxapps.BabyPimpleCareTreatment-1001000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.com.cbmtech.ESAMobileApp-1001000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.com.chococorp.pirates.lite-2001000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.com.civb.sigmobile-1000004" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.com.cobaltfire.wodfree-1001000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.com.contentvalley.flashapp-1000002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.com.cupcakedigital.frgl.gameday.free-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.com.desjardins.streetspin-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.com.differencegames.dallasjigsawfree-1000004" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.com.differencegames.hiddenpicturesuponatimefree-1000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.com.differencegames.hotomorrowlandfree-1000008" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/all/air.com.differencegames.threepyramidtripeaksfree-1000048" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/000e79f3ad9c9b5d5092f9b6487b9693" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/00acaebde1f29dd7ed99ff8dea0b94e3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/00b27c63575b9a015fe0cb6b9b574a3d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/00b94f51e2f35c8d81fedf8211843166" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/00d8f2df771d4f8b08b80e9498ee2fa9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/00dfcedbbce02d4365db6b49625938c7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/00f02111a5f0b556dddd31e8ccdef47b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/00f4cb88a05d98c8448f8bef394f9ba4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/00fc122331c6cb5cc5503cdb0364d79a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0a080c783d2954fe19cc244219bda6ac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0a0b985533e79372c5fccc1e8df249fc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0a194b712e50f3145fbb7f882abf3311" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0a1bab2759caf323bb71ebf65a690c74" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0a2492cb0226687277657e9c4250daaa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0a312255a3b108be9f9f8dae7dadda92" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0a3176b43318fd84ea0c3002ebfc6243" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0a324c9fcb35e8264908565bf00138b4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0a32f2d7d3c8c8c5973f4f31f6701da4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0a33399ee70bd8def7757fbb9f061b3a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0a3c42a5499d01b09239e69821002917" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0a3cdfdf122e86e8056459097b95b425" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0a5629f2ded0b5335290416aef99ff8c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0a5954f413a252951ea5149010773914" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0a66f61ce550b989ad8c5defcdc24afe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0a6b410444a761c6345903d9522e0ff8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0a7ebcb031d2e24da1dc46ae14bf7a12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0a8285ae6096f5eba6d28fdf1029511d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0a834b8d13453a15407a78a8bed8da80" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0a84b6113d3a1da11bfe422c1ee3245c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0a8e441e067a6a4bc1c224ec2e88de36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0aa199d43bab4808f871cd79f47fcb3c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0aad8b44bf8089ab64de65a6957a2f16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0ab087b8d0d1c7cc0c5ccce75999966a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0ab55fc275ef02c7951118ab69e3af1c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0abbd21d11b87b3ada1feac7d9d9e58f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0abc9880e47c7035a347eedad2434d1d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0aca13d08d755c1363bfc25febbb86c0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0ad4a2b723581726402a56f1f91b2076" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0ad88948c84b43c44c864af4b4dfc44f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0adbf0e53743b5ef3b114a3f3c6419c1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0adef24b035d93d5416e675447285869" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0ae457f05a27589e32a12d879b3f5a16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0aecef8384cc6dc8a0f96a20cd714d8e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0af0c6470de7a91e4553f92673020ace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0af484a4a196b8c86360dd146e9214fd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0b079c8c9b775cc592d13c1bbf7c0c75" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0b0b5b33d615383ada6ff22aa94e1aa4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0b0e058c4539124113f39df2e744105d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0b1372b5107b6153ee25bfa1d3cbcb53" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0b17df6e008271c130d30c3c9ad7d79a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0b19ecc6fd95a74e9304bbcdbf9b6780" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0b1c4b69436392723a999c0428cbd891" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0b25a55b3ad76751c497c420f5f9445b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0b2ca599533a4176b0c7a9e1de395e7d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0b36b377d778d60ff3d9cea548194a99" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0b3745b9aeaaa1979929577475ffe972" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0b3a00281d766194020815464803e5cf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0b435b63c99d431dd77f99d3d02f56f7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0b45f00d13acf5c50684e9753de146e7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0b49d8fd51b2b0f93f2b4d2deac62951" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0b4b5cb6365a6fd7530dc690e12dac0d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0b4d3deb56a44416fc27cc74b28bb449" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0b55254cc750c943530edc72962294fc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0b55a981ea2ed9e04cafb688ec46db0d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0b5ba37f7d936bf5f1ee1d309f204693" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0b5e31fd4f29d8f811a65c50e347e76e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0b660655349830665ed05519eb022c54" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0b67ee2828d400647f65ff1d5816f963" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0b6cbcd95cc63e514b6e8ffd56eef73f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0b7372098a1a5fad1cef15275ead864b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0b80968163428812252f09f42574ecaf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0b8c818fdcf0d55f1a2fd4e77f9dc057" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0bae302bcc24279f184a08bacd52c7d8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0bb7c64a1e6e2664265be527dc0ebace" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0bba65e8e16a3fd70f60d48780f053be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0bbd867d2ae910112cbf00773f1bcc36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0bbf02cb7c3a7fcb6c93f4751c49eef9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0bbf6c7922b08a21d1db84e7c473f999" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0bd2a0d27c77a7488e9a82bccc86b539" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0bd8d7166bd3bda86d941c35577adadc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0be107c88a725e9c3f507cb1a2f1adb4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0be12b089ed091873b3924c571b435cf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0beadff5f0ee223c165f78c7186d73e2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0bf1141cb1fa890179e8fea99f1d849a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0bf3d3c73d0ced36d178814b6b7ca980" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0bf7d76ba393df3366341fe4d3cc88cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0c06e63a59fc84228df9bd73ce34848b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0c0f40f95c84035b19afacf03384807e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0c19c0042bfd33940d78aed7fc10d5b1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0c2f3a78a05e16d27c0d4d8b0763da21" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0c31c7221b15e6eea615ef614fbb6881" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0c3c2d8b261b1835f4c74d79309a47f9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0c3ffb9bb8404c5d33338a10af9e1b64" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0c41fde5fae19c4d48496a07b6e63200" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0c6afb92b1960ad483327dc4cec8026b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0c6d5986f21eb94af44eb9f44645dd74" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0c6fc1e94dd9486d30e2dc00a79192fb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0c7f2ad463b96eb43c3a78cd6b36cbce" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0c8ee32aca0a4689000f9957b2a71da8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware/0c9bb0b89c2cff23adf86c02038879f7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/malware_sha256.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/feature/malware_sha256.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/a.c-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/a2u.gotofree-9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/a2z.Mobile.Event2106-20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/ab.workout05-8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/abajar.mucha.musica-47" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/abcsoftl.game.training.easy.reflexes.measurement-2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/abs.chi.Project2-10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/ac.FarEast.HIM-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/ac_zgz.depositcalculatorfree-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/acatchtheball.pack-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/acroapps.mathkids-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/action.game-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/acwind.net.photoprotector-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/adamtorok.cod2rcontools-4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/adesigners.androdesal.bestnorthdakotaplaces-2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/adrianoferraguto.oraesatta-7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/ae.admedia.radio-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/aero.zztrop-13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/ag.i9c.driessen-3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/agus.instantphoto-4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/ai_obida_alquraan.MP3_Duaa_arabic-5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.A3bingo.camilacoelho-1010010" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.A4Timers-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.A9ZWRKV9BQ8.com.digitaleg.MainApplication-1000002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.AS3Facile-1000003" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.AllGone-1002005" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.Alphabetandsounds-1000002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.AmeterZ-1000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.AnatomyStarBrain-1002002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.AngelinaJolieMakeover-1000003" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.AnthonyHoangPhotography-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.ArabicTV.TestApp-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.Arabicalphabets-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.AspectosSociaisDaEuropa-1001000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.BBMan-561" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.BabyToys-1000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.BataBunga-1000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.Bee-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.Billiard_Room_Escape-1008000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.BubblePop2-2000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.CIF-1000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.CadyNiamey-1000008" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.CasaBabili5-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.Chicken_Nuggets_Cooking_Games-1002000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.ClayInvasionLite-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.aWiseMathK1601-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.abcs-1000002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.actionscript3tr.tarihserididenemesurumu-1001000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.air.ExplodingBalloons-6000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.air.SKULLED-1000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.air.com.gosugroup.battlefrontheroes-1000047" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.air.com.jamLite.JamWithMe-3000006" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.air.strokes.com.easymemo.EasyMemoItalian-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.amc.deadreckoning-1000004" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.appCaldes-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.apps.NewsEnterprise.quotidianiitaliani-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.au.com.coplsaas.db3-1000006" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.aviao-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.basement5001-1000002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.beach-3000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.biz.krokodyl.centrum_jezykow_europejskich__euro_alphabet-2056124" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.br.com.codigodeprocesssocivil.smartphonefree.A2013-1003000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.br.com.metronews.MN-1003000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.ca.jsbr.paperhangman-1003000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.calc.fnsoft-2001000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.candybarcookiepops-1000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.cc.hithot.android.game5722.domesticity.tw-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.cc.hithot.android.game5722.vegetables.tw-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.chrisDsAndroidApp-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.cn.kx.wg.empirecraft-2000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.cointoss-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.com.BarbyGames.BabyFacePainting-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.com.Croesus.AirAdvisor-1000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.com.absolutist.jumprobotfree-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.com.adobe.samples.GetMyLocation-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.com.advicted.RunenSteine-1001000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.com.ainago.MantoPhoto-1000003" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.com.air.NaughtyBoyKissing-1000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.com.alainsalabi.CookingTimer-1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.com.amihanya.Pray-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.com.anwk.IceCreamStore-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.com.apps.vieweeds.pulsimeterfree-1000002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.com.arkadium.matchandmerge-4000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.com.avantajconsulting.testphp-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.com.baobaogame.ColorBearAndroid-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.com.bgp.kittenvillage-1000002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.com.blogspot.kruphimpha.app2-1000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.com.bookemon.mobile.BookemonMobile-1004000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.com.bxapps.BabyPimpleCareTreatment-1001000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.com.cbmtech.ESAMobileApp-1001000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.com.chococorp.pirates.lite-2001000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.com.civb.sigmobile-1000004" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.com.cobaltfire.wodfree-1001000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.com.contentvalley.flashapp-1000002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.com.cupcakedigital.frgl.gameday.free-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.com.desjardins.streetspin-1000000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.com.differencegames.dallasjigsawfree-1000004" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.com.differencegames.hiddenpicturesuponatimefree-1000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.com.differencegames.hotomorrowlandfree-1000008" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/feature/normal/air.com.differencegames.threepyramidtripeaksfree-1000048" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_features.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_features.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_malware_to_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_malware_to_csv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/learning_process.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/learning_process.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/model/SVM.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/out/model/SVM.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,36 +421,24 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Drebin$get_malware.coverage" NAME="get_malware Coverage Results" MODIFIED="1552478945526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Drebin$get_malware_to_csv.coverage" NAME="get_malware_to_csv Coverage Results" MODIFIED="1552484384197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Drebin$get_malware_to_csv.coverage" NAME="get_malware_to_csv Coverage Results" MODIFIED="1554379466453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Drebin$PScoutMapping.coverage" NAME="PScoutMapping Coverage Results" MODIFIED="1552394436084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PScount" />
     <SUITE FILE_PATH="coverage/Drebin$vector.coverage" NAME="vector Coverage Results" MODIFIED="1552462481101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Drebin$predict.coverage" NAME="predict Coverage Results" MODIFIED="1552482470010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Drebin$smali_features.coverage" NAME="smali_features Coverage Results" MODIFIED="1552486737754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Drebin$vector__1_.coverage" NAME="vector Coverage Results" MODIFIED="1552483624490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Drebin$get_features.coverage" NAME="get_features Coverage Results" MODIFIED="1552487228488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Drebin$SVM.coverage" NAME="SVM Coverage Results" MODIFIED="1552487236364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Drebin$SVM.coverage" NAME="SVM Coverage Results" MODIFIED="1554382179344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Drebin$get_features.coverage" NAME="get_features Coverage Results" MODIFIED="1554703762733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="get_features.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/get_features.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+            <state relative-caret-position="510">
+              <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manifest_features.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manifest_features.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,8 +447,23 @@
       <file leaf-file-name="get_malware_to_csv.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/get_malware_to_csv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+            <state relative-caret-position="261">
+              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manifest_features.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manifest_features.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1218">
+              <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,20 +471,11 @@
       <file leaf-file-name="smali_features.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smali_features.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            <state relative-caret-position="2581">
+              <caret line="91" column="16" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -83,7 +485,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="116">
-                <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+                <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -93,8 +495,8 @@
       <file leaf-file-name="vector.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-630">
-              <caret line="81" column="27" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
+            <state relative-caret-position="1740">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -105,8 +507,8 @@
       <file leaf-file-name="SVM.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SVM.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+            <state relative-caret-position="58">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -153,11 +555,11 @@
         <option value="$PROJECT_DIR$/manifest_features.py" />
         <option value="$PROJECT_DIR$/get_malware.py" />
         <option value="$PROJECT_DIR$/predict.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/get_malware_to_csv.py" />
         <option value="$PROJECT_DIR$/vector.py" />
         <option value="$PROJECT_DIR$/SVM.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/get_features.py" />
-        <option value="$PROJECT_DIR$/get_malware_to_csv.py" />
       </list>
     </option>
   </component>
@@ -171,8 +573,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="145" />
-    <option name="y" value="435" />
+    <option name="x" value="966" />
+    <option name="y" value="14" />
     <option name="width" value="1582" />
     <option name="height" value="1061" />
   </component>
@@ -181,6 +583,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,27 +591,15 @@
               <item name="Drebin" type="b2602c69:ProjectViewProjectNode" />
               <item name="Drebin" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Drebin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Drebin" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Drebin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Drebin" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="feature" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/malware_detection/Drebin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -233,7 +624,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SVM">
+  <component name="RunManager" selected="Python.get_features">
     <configuration name="SVM" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Drebin" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -338,8 +729,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.SVM" />
         <item itemvalue="Python.get_features" />
+        <item itemvalue="Python.SVM" />
         <item itemvalue="Python.get_malware_to_csv" />
         <item itemvalue="Python.vector" />
         <item itemvalue="Python.predict" />
@@ -364,40 +755,57 @@
       <option name="project" value="LOCAL" />
       <updated>1552487433126</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.get features from apk&#10;2.put features into vector&#10;3.use SVM to train and test&#10;&#10;Signed-off-by: lightingwm &lt;chenwm_@outlook.com&gt;">
+      <created>1552487484959</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552487484959</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="-8" width="1869" height="1096" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.3291536" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3322884" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.27795193" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25914314" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3291536" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49834985" visible="true" weight="0.26091763" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3490073" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.34133613" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49834985" visible="true" weight="0.342178" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" sideWeight="0.50165015" side_tool="true" weight="0.25262576" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39916405" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="7" weight="0.3291536" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="7" weight="0.3291536" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -405,7 +813,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.get features from apk&#10;2.put features into vector&#10;3.use SVM to train and test" />
     <MESSAGE value="1.get features from apk &#10;2.put features into vector&#10;3.use SVM to train and test" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.get features from apk &#10;2.put features into vector&#10;3.use SVM to train and test" />
+    <MESSAGE value="1.get features from apk&#10;2.put features into vector&#10;3.use SVM to train and test&#10;&#10;Signed-off-by: lightingwm &lt;chenwm_@outlook.com&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.get features from apk&#10;2.put features into vector&#10;3.use SVM to train and test&#10;&#10;Signed-off-by: lightingwm &lt;chenwm_@outlook.com&gt;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -549,70 +958,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/feature/malware/0a8e441e067a6a4bc1c224ec2e88de36">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="84" column="28" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/feature/malware/00dfcedbbce02d4365db6b49625938c7">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2246" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/feature/malware/00f4cb88a05d98c8448f8bef394f9ba4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="83" column="28" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/feature/malware/00fc122331c6cb5cc5503cdb0364d79a">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-825" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/feature/malware/0a8e441e067a6a4bc1c224ec2e88de36" />
+    <entry file="file://$PROJECT_DIR$/data/feature/malware/00dfcedbbce02d4365db6b49625938c7" />
+    <entry file="file://$PROJECT_DIR$/data/feature/malware/00f4cb88a05d98c8448f8bef394f9ba4" />
+    <entry file="file://$PROJECT_DIR$/data/feature/malware/00fc122331c6cb5cc5503cdb0364d79a" />
     <entry file="file://$PROJECT_DIR$/data/feature/result_50" />
-    <entry file="file://$PROJECT_DIR$/data/feature/malware/00b27c63575b9a015fe0cb6b9b574a3d">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="83" column="28" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/feature/malware/00b94f51e2f35c8d81fedf8211843166">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="79" column="28" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/feature/malware/00b27c63575b9a015fe0cb6b9b574a3d" />
+    <entry file="file://$PROJECT_DIR$/data/feature/malware/00b94f51e2f35c8d81fedf8211843166" />
     <entry file="file://$PROJECT_DIR$/data/feature/result_tmp" />
-    <entry file="file://$PROJECT_DIR$/data/feature/malware/0a0b985533e79372c5fccc1e8df249fc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1888">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/feature/malware/0a3c42a5499d01b09239e69821002917">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/feature/malware/0a3cdfdf122e86e8056459097b95b425">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/feature/malware/0a1bab2759caf323bb71ebf65a690c74">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="73" column="33" selection-start-line="73" selection-start-column="33" selection-end-line="73" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/feature/malware/0a0b985533e79372c5fccc1e8df249fc" />
+    <entry file="file://$PROJECT_DIR$/data/feature/malware/0a3c42a5499d01b09239e69821002917" />
+    <entry file="file://$PROJECT_DIR$/data/feature/malware/0a3cdfdf122e86e8056459097b95b425" />
+    <entry file="file://$PROJECT_DIR$/data/feature/malware/0a1bab2759caf323bb71ebf65a690c74" />
     <entry file="file://$USER_HOME$/Desktop/malware_detection/Drebin/Drebin/venv/Lib/site-packages/sklearn/svm/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -621,16 +978,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tmp_vector.py" />
-    <entry file="file://$PROJECT_DIR$/smali_features.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/test_feature/all/aero.sita.lab.resmobileweb.android.mh" />
     <entry file="file://$PROJECT_DIR$/test_data.npy" />
     <entry file="file://$PROJECT_DIR$/1.txt" />
@@ -647,7 +994,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="116">
-            <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+            <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
           </first_editor>
           <second_editor />
         </state>
@@ -656,47 +1003,60 @@
     <entry file="file://$PROJECT_DIR$/out/learning_process.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/vector.py">
+    <entry file="file://$PROJECT_DIR$/smali_features.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-630">
-          <caret line="81" column="27" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
+        <state relative-caret-position="2581">
+          <caret line="91" column="16" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SVM.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manifest_features.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/get_malware_to_csv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        <state relative-caret-position="261">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1740">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifest_features.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1218">
+          <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/get_features.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        <state relative-caret-position="510">
+          <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
