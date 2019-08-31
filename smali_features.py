@@ -47,6 +47,7 @@ class SmaliFeatures:
         return URLDomainSet
 
     def get_permissions_and_API(self, ApiList, PMap, RequestedPermissionList):
+        ## from https://github.com/MLDroid/drebin
         '''
         Get Android Permissions used by a list of android APIs
         and meanwhile Get RestrictedApiSet and SuspiciousApiSet
@@ -73,6 +74,7 @@ class SmaliFeatures:
         return PermissionSet, RestrictedApiSet
 
     def find_invoked_Android_APIs(self, DalvikCodeList):
+        ## from https://github.com/MLDroid/drebin
         '''
         Get the android APIs invoked by a list of instrcutions and return these APIs and Suspicious API set.
         :param List<String> DalvikCodeList
